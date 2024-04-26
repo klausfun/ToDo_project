@@ -1,0 +1,8 @@
+1) "github.com/jmoiron/sqlx v1.3.5"
+Предназначен для работы с БД
+
+2) "github.com/sirupsen/logrus"
+библеотека для логирования
+
+3) "github.com/dgrijakva/jwt-go"
+для аутентификации. Работа с JWT токенами
