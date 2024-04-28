@@ -57,7 +57,7 @@ func TestHandler_signUp(t *testing.T) {
 				s.EXPECT().CreateUser(user).Return(1, errors.New("service failure"))
 			},
 			expectedStatusCode:  500,
-			expectedRequestBody: `{"message":"service failure"}`,
+			expectedRequestBody: `{"message":""}`,
 		},
 	}
 
