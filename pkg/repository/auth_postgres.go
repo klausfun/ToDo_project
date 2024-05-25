@@ -6,7 +6,6 @@ import (
 	todo "github.com/klausfun/ToDo_project"
 )
 
-// имплиминтирует наш интерфейс репозитория и работает с базой Postgres
 type AuthPostgres struct {
 	db *sqlx.DB
 }
